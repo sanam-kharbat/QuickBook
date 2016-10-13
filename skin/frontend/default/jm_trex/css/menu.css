@@ -1,0 +1,151 @@
+.header-nav-container {
+	border: 1px solid #1c1c1c;
+	border-bottom: none;
+}
+
+#nav {}
+
+#nav-mobile-button { display: none; }
+
+#nav-mobile { display: none; }
+/************** ALL LEVELS  *************/ /* Style consistent throughout all nav levels */
+#nav li {
+	position: relative;
+	text-align: left;
+}
+
+#nav li.over {
+	z-index: 999;
+}
+
+#nav a, #nav a:hover, #nav a:active, #nav a:focus {
+	display: block;
+	text-decoration: none;
+}
+
+#nav span {
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+#nav li ul span { white-space: normal; }
+
+/************ 0 LEVEL  ***************/
+#nav li {
+	float: left;
+	border-right: 1px solid #1c1c1c;
+}
+
+#nav li.active a, #nav li.over a, #nav a:hover, #nav a:active, #nav a:focus, #nav a.over {
+	color: #fff;
+}
+
+#nav li.over a, #nav a:hover, #nav a:active, #nav a:focus, #nav a.over {
+	background: #e31837;
+	color: #fff;
+}
+
+#nav li.level0.active > a > span {
+	border-bottom: 1px solid #1c1c1c;
+	padding-bottom: 4px;
+}
+
+#nav li.level0.active.over > a > span {
+	border-bottom: 1px solid #F7B6C0; 
+}
+
+#nav a {
+	float: left;
+	text-decoration: none;
+	padding: 15px 20px;
+	color: #fff;
+	font-size: 12px;
+	font-family: NovecentowideNormalRegular, sans-serif;
+}
+
+#nav a span {
+	padding-bottom: 5px;
+}
+
+/************ 1ST LEVEL ************/
+#nav ul li,
+#nav ul li.active {
+	float: none;
+	margin: 0;
+}
+
+/*#nav ul li.over { background:#d5e4eb url(../images/nav_divider.gif) repeat-x 0 100%; }*/
+
+#nav ul li.last {
+	padding-bottom: 0;
+}
+
+#nav ul a,
+#nav ul a:hover, #nav ul a.over {
+	float: none;
+	padding: 0;
+	background: none;
+	font-size: 12px;
+}
+
+#nav ul li a {
+	font-weight: normal !important;
+}
+
+#nav li.over li.parent > a {}
+
+/************ 2ND LEVEL ************/
+#nav ul {
+	position: absolute;
+	width: 15em;
+	top: 48px;
+	left: -10000px;
+	background: #e31837;
+}
+
+#nav ul li {
+	border: none;
+	background: none;
+}
+
+/* Show menu */
+#nav li.over > ul { left:0; }
+#nav li.over > ul li.over > ul { left:150px; }
+#nav li.over ul ul { left:-10000px; }
+
+#nav li.over ul li a,  #nav li.active li a {
+	border: none;
+	margin: 0;
+	color: #fff;
+	background: url(../images/white-title.gif) repeat-x left center;
+	font-weight: normal;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#nav li.over ul li > a span,  #nav li.active li > a span {
+	padding: 10px 20px;
+	border-bottom: 0;
+}
+
+#nav li.over ul li.over > a,
+#nav li.over ul li.active > a {
+	color: #ffba00;
+}
+
+#nav li.over ul li > a span {
+	background: #fff;
+	float: left;
+	background: #e31837;
+	padding: 10px 20px;
+}
+
+#nav li.over ul li.over > a span,
+#nav li.over ul li.active > a span {
+	border-left: 5px solid #ffba00;
+	padding-left: 15px;
+}
+
+/************ 3RD+ LEVEL ************/
+#nav ul ul { top: 5px; }

@@ -1,0 +1,236 @@
+<div class="clear"></div>
+<div class="best-sales">
+    <div class="best-sales-title bestSellerHeader">
+        <h2>SHOP SMALL BUSINESS DEALS</h2>
+        <div class="slidercontrols">
+            <a class="prev" id="prev1" href="#">Prev</a>
+            <a class="next" id="next1" href="#">Next</a>
+        </div>
+    </div>
+    <div class="home-best-sellers">
+                    <div class="category-products list_carousel responsive">
+                                
+                <ul class="products-grid carousel hover-effect" data-carousel-prev="#prev1" data-carousel-next="#next1">
+                                            <li class="wow flipInY item first" data-wow-delay="0.2s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-42.html?___SID=U" title="QuickBook Online2" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_2_1.png" alt="QuickBook Online2" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-42.html?___SID=U" title="QuickBook Online2">
+                                        QuickBook Online2                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-7">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/7/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/7/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/7/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item" data-wow-delay="0.7s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa.html?___SID=U" title="QuickBook Online7" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_4.png" alt="QuickBook Online7" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa.html?___SID=U" title="QuickBook Online7">
+                                        QuickBook Online7                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-2">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/2/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/2/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/2/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item" data-wow-delay="1.2s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-43.html?___SID=U" title="QuickBook Online" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_2_1_1.png" alt="QuickBook Online" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-43.html?___SID=U" title="QuickBook Online">
+                                        QuickBook Online                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-8">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/8/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/8/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/8/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item" data-wow-delay="1.7s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-40.html?___SID=U" title="QuickBook Online4" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_1.png" alt="QuickBook Online4" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-40.html?___SID=U" title="QuickBook Online4">
+                                        QuickBook Online4                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-5">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/5/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/5/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/5/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item" data-wow-delay="2.2s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-38.html?___SID=U" title="QuickBook Online6" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_3.png" alt="QuickBook Online6" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-38.html?___SID=U" title="QuickBook Online6">
+                                        QuickBook Online6                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-3">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/3/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/3/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/3/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item" data-wow-delay="2.7s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-41.html?___SID=U" title="QuickBook Online3" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec.png" alt="QuickBook Online3" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-41.html?___SID=U" title="QuickBook Online3">
+                                        QuickBook Online3                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-6">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/6/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/6/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/6/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    <li class="wow flipInY item last" data-wow-delay="3.2s">
+                            <a href="http://192.168.11.199/magentotest/index.php/saa-39.html?___SID=U" title="QuickBook Online5" class="productimage">
+                                <img src="http://192.168.11.199/magentotest/media/catalog/product/cache/1/small_image/200x300/9df78eab33525d08d6e5fb8d27136e95/b/o/bottomsec_2.png" alt="QuickBook Online5" class="imgresponsive" />
+                                                            </a>
+                            <div class="product-desc-bestsales">
+                                <h3 class="panel-title product-name">
+                                    <a href="http://192.168.11.199/magentotest/index.php/saa-39.html?___SID=U" title="QuickBook Online5">
+                                        QuickBook Online5                                    </a>
+                                </h3>
+                                <!--
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-4">
+                                            <span class="price">₹15.00</span>                                    </span>
+                        
+        </div>
+
+-->
+                            </div>
+                            <div class="display-onhover">
+                                <div class="actions clearer">
+                                                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://192.168.11.199/magentotest/index.php/checkout/cart/add/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/product/4/form_key/6dSdw95NisN1gnMO/?___SID=U')"><span><span>Add Cart</span></span></button>
+                                                                    </div>
+                                <ul class="add-to-links">
+                                                                            <li>
+                                            <a title="Add to Compare" href="http://192.168.11.199/magentotest/index.php/catalog/product_compare/add/product/4/uenc/aHR0cDovLzE5Mi4xNjguMTEuMTk5L21hZ2VudG90ZXN0Lw,,/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                                                                                                    <li><a title="Add to Wishlist" href="http://192.168.11.199/magentotest/index.php/wishlist/index/add/product/4/form_key/6dSdw95NisN1gnMO/?___SID=U" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
+                                                                        </ul>
+                                </div>
+                            </li>
+                                                    </ul>
+                    </div>
+                            </div>
+            
+        </div>
+        <div class="clear"></div>

@@ -1,0 +1,93 @@
+<?php if (Mage::helper('productslider')->isEnabled()) : ?>
+    <?php
+    $slider = $this->getSliderData();
+    $_helper = $this->helper('catalog/output');
+    $_products = $this->getProducts($slider);
+    if ($slider && $slider->getId()):
+        ?>
+        <script src="<?php echo $this->getJsUrl('mageplaza/jquery-2.1.4.min.js') ?>"></script>
+        <script src="<?php echo $this->getJsUrl('mageplaza/productslider/carousel/owl.carousel.js') ?>"></script>
+        <script src="<?php echo $this->getJsUrl('mageplaza/productslider/carousel/owl.carousel.min.js') ?>"></script>
+        <link rel="stylesheet" type="text/css"
+              href="<?php echo $this->getSkinUrl('css/mageplaza/productslider/owl.carousel.css') ?>" media="all"/>
+        <link rel="stylesheet" type="text/css"
+              href="<?php echo $this->getSkinUrl('css/mageplaza/productslider/owl.theme.css') ?>" media="all"/>
+        <link rel="stylesheet" type="text/css"
+              href="<?php echo $this->getSkinUrl('css/mageplaza/productslider/owl.transitions.css') ?>" media="all"/>
+
+        <script type="text/javascript">
+            Event.observe(window, 'load', function () {
+                if (typeof jq == 'undefined') {
+                    var jq = jQuery.noConflict();
+                }
+                jq("#bannerslider-carousel-<?php echo $this->getSliderIdHtml($slider) ?>").owlCarousel(<?php echo $this->getJsonConfig() ?>);
+            });
+        </script>
+        <div id='bannerslider-carousel-<?php echo $this->getSliderIdHtml($slider) ?>'
+             class="bannerslider-carousel owl-carousel owl-theme">
+            <?php if($_products):?>
+                <?php foreach ($_products as $product): ?>
+                <div class="item">
+
+
+                    <?php if ($slider->getSourceType() == 'new_products'): ?>
+                        <?php if (Mage::helper('productslider')->isEnabledNew()): ?>
+                            <div class="bg-color"
+                                 style="background: <?php echo '#' . Mage::helper('productslider')->getNewBackGroundColor() ?>">
+                                <p style="color:<?php echo '#' . Mage::helper('productslider')->getNewTextColor() ?>"><?php echo Mage::helper('productslider')->getNewProductLabel() ?></p>
+                            </div>
+                        <?php endif; ?>
+                    <?php endif; ?>
+
+                    <?php if ($slider->getSourceType() == 'on_sale'): ?>
+                        <?php if (Mage::helper('productslider')->isEnabledSale()): ?>
+                            <div class="bgf-color"
+                                 style="background: <?php echo '#' . Mage::helper('productslider')->getSaleBackGround() ?>">
+                                <p style="color:<?php echo '#' . Mage::helper('productslider')->getSaleTextColor() ?>"><?php echo Mage::helper('productslider')->getSaleLabel() ?></p>
+                            </div>
+                        <?php endif; ?>
+                    <?php endif; ?>
+
+                    <a href="<?php echo $product->getProductUrl() ?>"
+                       title="<?php echo $this->escapeHtml($product->getName()) ?>" class="product-image">
+                        <?php $_imgSize = 260; ?>
+                        <img
+                            src="<?php echo $this->helper('catalog/image')->init($product, 'small_image')->resize($_imgSize); ?>"
+                            alt="<?php echo $this->stripTags($this->getImageLabel($product, 'small_image'), null, true) ?>"/>
+                    </a>
+
+                    <div class="product-info">
+                        <?php if ($slider['show_name'] == 1): ?>
+                            <h3 class="product-name"><a href="<?php echo $product->getProductUrl() ?>"
+                                                        title="<?php echo $this->escapeHtml($product->getName()) ?>"><?php echo $_helper->productAttribute($product, $product->getName(), 'name') ?></a>
+                            </h3>
+                        <?php endif; ?>
+                        <?php if ($slider['show_description'] == 1): ?>
+                            <p class="description"><?php echo substr($_helper->productAttribute($product, $product->getShortDescription(), 'short_description'), 0, 30) . '...' ?></p>
+                        <?php endif; ?>
+                        <?php if ($slider['show_price'] == 1): ?>
+                            <div class="price"><?php echo $this->getPriceHtml($product, true) ?></div>
+                        <?php endif; ?>
+                        <?php if ($slider['show_review'] == 1): ?>
+                            <?php echo $this->getReviewsSummaryHtml($product, 'short') ?>
+                        <?php endif; ?>
+                        <?php if ($slider['show_addtocart'] == 1): ?>
+                            <div class="actions">
+                                <?php if ($product->isSaleable()): ?>
+                                    <button type="button" title="<?php echo $this->__('Add to Cart') ?>"
+                                            class="button btn-cart"
+                                            onclick="setLocation('<?php echo $this->getAddToCartUrl($product) ?>')">
+                                        <span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                <?php else: ?>
+                                    <p class="availability out-of-stock">
+                                        <span><?php echo $this->__('Out of stock') ?></span></p>
+                                <?php endif; ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            <?php endif;?>
+        </div>
+    <?php endif; ?>
+<?php endif; ?>

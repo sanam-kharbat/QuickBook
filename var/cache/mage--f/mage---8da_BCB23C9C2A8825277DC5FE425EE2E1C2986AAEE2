@@ -1,0 +1,80 @@
+<div class="feturedServices">
+ <h1>Featured Services</h1>
+</div>
+<div class="wrappernew">
+                      
+			<div class="firstDiv comClass">
+				
+				<div id="overlaynew">
+			      <span id="plus">QuickBooks File Review</span>
+			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
+			      <button class="learnButton">Learn More &gt;&gt;</button>
+			    </div>
+			    <h4>QuickBooks File Review</h4>
+			</div>
+			<div class="secDiv comClass">
+				
+				
+				<div id="overlaynew">
+			      <span id="plus">QuickBooks File Review</span>
+			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
+			      <button class="learnButton">Learn More &gt;&gt;</button>
+			    </div>
+			      <h4>QuickBooks File Review</h4>
+			</div>
+			<div class="thrdDiv comClass">
+				
+				<div id="overlaynew">
+			      <span id="plus">QuickBooks File Review</span>
+			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
+			      <button class="learnButton">Learn More &gt;&gt;</button>
+			    </div>
+			     <h4>QuickBooks File Review</h4>
+			</div>
+			<div class="frthDiv comClass">
+				
+				<div id="overlaynew">
+			      <span id="plus">QuickBooks File Review</span>
+			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
+			      <button class="learnButton">Learn More &gt;&gt;</button>
+			    </div>
+			     <h4>QuickBooks File Review</h4>
+			</div>
+		</div>
+
+<div class="banner " id="bannerquick">
+<div class="sequence-theme">
+<div id="sequence">
+<ul class="owl-carousel sequence-canvas quickEnter">
+<li class="item animate-in bg1">
+<div class="bannerWidth2">
+<div class="banner-container">
+<h2 class="title">QuickBooks Enterprise</h2>
+<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<button href="#" class="getBtn">Get Start &gt;&gt;</button>
+</div>
+</div>
+</li>
+<li class="item  bg2">
+<div class="bannerWidth2">
+<div class="banner-container">
+<h2 class="title">QuickBooks Enterprise</h2>
+<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<button href="#" class="getBtn">Get Start &gt;&gt;</button>
+</div>
+</div>
+</li>
+<li class="item  bg3">
+<div class="bannerWidth2">
+<div class="banner-container">
+<h2 class="title">QuickBooks Enterprise</h2>
+<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<button href="#" class="getBtn">Get Start &gt;&gt;</button>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+

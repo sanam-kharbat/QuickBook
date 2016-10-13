@@ -1,0 +1,7 @@
+/* Using CSS3 for some visual enhancements. (Will be degraded
+	nicely for non-CSS3 browsers.)
+-------------------------------------------------------------*/
+.block-progress dd.complete table td,
+.block-progress dd.complete table th {
+	word-wrap: break-word;
+}

@@ -1,0 +1,221 @@
+
+/*----------------------------------------------------------------
+ theme.css
+----------------------------------------------------------------*/
+
+/* COMMON ELEMENTS
+-------------------------------------------------------------*/
+/*Normal link---*/
+a { color: #ff5300; }
+
+a:hover, a:active, a:focus { color: #ff5300; }
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header .main { border-top-color: #ffd800; }
+
+h1#logo a { background-image: url(../../images/yellow/logo.gif) !important; }
+
+/* MAIN NAVIGATION
+--------------------------------------------------------- */
+#ja-mainnav .block-cart .block-content { border-color: #ffd800; }
+
+#ja-mainnav .block-cart:hover .block-title,
+#ja-mainnav .block-cart .block-title.active { background-color: #ffd800; color: #000; }
+
+#ja-mainnav .block-cart:hover .block-title strong,
+#ja-mainnav .block-cart .block-title.active strong { color: #000; }
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+/* Top Spotlight */
+#ja-topsl1 .category-desc a.category-title:hover,
+#ja-topsl1 .category-desc a.category-title:focus,
+#ja-topsl1 .category-desc a.category-title:active {
+	background-color: #ffd800;
+	color: #000;
+}
+
+/* Bottom Spotlight */
+#ja-botsl .content-inner { color: #ffd800; }
+#ja-botsl a {
+	color: #ffd800;
+}
+/* FOOTER
+--------------------------------------------------------- */
+#ja-footer .main { border-bottom-color: #ffd800; }
+
+#ja-footer li a { color: #ffd800; }
+
+#ja-footer .jm-footer-logo a { background-image: url(../../images/yellow/logo.gif); }
+
+/* FORMS
+----------------------------------------------------------------*/
+button.btn-cart {
+	background-color: #ffd800;
+	border-color: #ffd800;
+	color: #000;
+}
+
+button.btn-continue,
+button.btn-update,
+button.btn-empty,
+button.btn-add,
+button.btn-share {
+	color: #000;
+}
+
+button.btn-proceed-checkout {
+	background-color: #ffd800;
+	border-color: #ffd800;
+	color: #000;
+}
+
+/* LISTS
+----------------------------------------------------------------*/
+.disc li a,
+.std > ul li a {
+	color: #ff5300;
+}
+
+/* Pager magento */
+.pager .pages li a { color: #ff5300; }
+
+/*PRICES
+----------------------------------------------------------------*/
+/*Special price---*/
+.special-price .price-label { color: #ff5300; }
+.special-price .price { color: #ff5300; }
+
+/*Minimal price (as low as)---*/
+a.minimal-price-link .price { color: #ff5300; }
+
+/*Excluding tax---*/
+.price-excluding-tax .price { color: #ff5300; }
+
+/*Including tax---*/
+.price-including-tax .price { color: #ff5300; }
+
+/* MIS.
+----------------------------------------------------------------*/
+.product-name a:hover,
+.product-name a:focus,
+.product-name a:active {
+	color: #ff5300;
+}
+
+strong.grid {
+	background-image: url(../../images/yellow/icon-grid-active.gif);
+}
+
+strong.list {
+	background-image: url(../../images/yellow/icon-list-active.gif);
+}
+
+/*Tool Tips---*/
+.truncated a.details { border-bottom-color: #ffd800; }
+
+/*CATALOG LISTING
+----------------------------------------------------------------*/
+.category-products h2 a:hover,
+.category-products h2 a:focus,
+.category-products h2 a:active { color: #ff5300; }
+
+ul.ja-tab-navigator li.active a { color: #ff5300 !important; }
+
+/*Product tabs---*/
+.product-img-box .more-views li a:hover { border: 4px solid #ffd800; }
+
+/*Gift Messages----*/
+.giftmessages .gift-header { color: #ff5300; }
+
+/*Checkout Progress---*/
+.checkout-progress li.active { background: #ffd800; }
+
+/*Multiple Addresses checkout---*/
+.shipment-count { background: #ffd800; }
+
+.place-order-box .grand-total .price { color: #ff5300; }
+
+/*My Account navigation---*/
+.block-account .block-title strong { color: #ff5300; }
+
+.block-account li a:hover,
+.block-account li a:active,
+.block-account li a:focus { color: #ff5300; }
+
+.block-account li.current { color: #ff5300; }
+
+.box-account .box .box-content a.button { background: #ffd800; border: 1px solid #ffd800; color: #000; }
+
+.box-account ol .number { background: #ffd800; color: #000; }
+
+/*Account Order History---*/
+#my-orders-table a:hover,
+#my-orders-table a:focus,
+#my-orders-table a.link-reorder { color: #ff5300; }
+
+/*ADVANCED SEARCH
+----------------------------------------------------------------*/ 
+.advanced-search-nothing-found { color: #ff5300; }
+
+/*----------------------------------------------------------------
+ menu.css
+----------------------------------------------------------------*/
+#nav li.over a, #nav a:hover, #nav a:active, #nav a:focus, #nav a.over { background: #ffd800; color: #000; }
+
+#nav li.level0.active.over > a > span { border-bottom-color: #fff; }
+
+#nav ul { background: #ffd800; }
+
+#nav li.over ul li a,  #nav li.active li a {
+	color: #000;
+	background: url(../../images/yellow/black-title.gif) repeat-x left center;
+}
+
+#nav li.over ul li > a span { background: #ffd800; }
+
+#nav li.over ul li.over > a,
+#nav li.over ul li.active > a {
+	color: #ff5300;
+}
+
+#nav li.over ul li.over > a span,
+#nav li.over ul li.active > a span {
+	border-left: 5px solid #ff5300;
+}
+
+/*----------------------------------------------------------------
+ slideshow.css
+----------------------------------------------------------------*/
+.jm-mask-desc a.readon { background: #ffd800; color: #000; }
+
+.jm-mask-desc a.readon:hover,
+.jm-mask-desc a.readon:focus,
+.jm-mask-desc a.readon:active { color: #fff; }
+/*CONTENT SLIDER
+----------------------------------------------------------------*/
+.jm-slider .controls .next-slide {
+	background-image: url(../../images/yellow/next.png);	
+}
+
+.jm-slider .controls .prev-slide {
+	background-image: url(../../images/yellow/pre.png);	
+}
+
+.jm-megamenu ul.level0 li.mega a.mega:hover,
+.jm-megamenu ul.level0 li.mega:hover > a.mega,
+.jm-megamenu .childcontent-inner {background: #ffd800;}
+
+.jm-megamenu ul.level0 li.mega a.mega:hover,
+.jm-megamenu ul.level0 li.mega:hover > a.mega span { color:#000;}
+
+.jm-megamenu .level2 li a.mega span {background:#ffd800!important; color:#000;}
+
+.jm-megamenu ul.level0 li.mega.active:hover > a.mega span {color:#000 !important;border-bottom: 1px solid #333 !important;}
+
+.jm-megamenu .megacol.column2 { border-left:1px solid rgba(0,0,0,0.3); padding-left:10px;  border-left:1px solid #3330/}
+.jm-megamenu .megacol.column3 { border-top:1px solid rgba(0,0,0,0.3); padding-top:20px;  border-top:1px solid #333\0/; margin-left:20px}
+
+.jm-megamenu .products-grid div.item h2 a,
+.jm-megamenu .products-grid div.item .price-box .price {color:#000 !important;}

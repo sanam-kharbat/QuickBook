@@ -1,0 +1,313 @@
+.jm-megamenu { margin: 0; padding: 0; }
+.jm-megamenu a.over, .jm-megamenu a.active {}
+
+ul.megamenu { margin: 10px; /* menu's gutter */ } 
+
+ul.megamenu li { overflow: visible; }
+
+/* lv - 0
+-----------------------------------*/
+/* Styling ---*/
+.jm-megamenu ul.level0 {
+	margin: 0;
+	padding: 0;
+}
+
+.jm-megamenu ul.level0 li.mega {
+	float: left;
+	border-right: 1px solid #1c1c1c;
+}
+
+.jm-megamenu ul.level0 li.mega a.mega {
+   color: #FFFFFF;
+    float: left;
+    font-family: NovecentowideNormalRegular,sans-serif;
+    font-size: 12px;
+    padding: 14px 20px 15px 20px;
+    text-decoration: none;
+}
+
+.jm-megamenu ul.level0 li.mega a.mega span { padding-bottom:5px;}
+
+.jm-megamenu ul.level0 li.mega a.mega:hover,
+.jm-megamenu ul.level0 li.mega:hover > a.mega { 
+	background: #e31837;
+	color: #fff; }
+	
+.jm-megamenu ul.level0 li.mega.active > a.mega span {
+	border-bottom: 1px solid #1c1c1c;
+}
+
+.jm-megamenu ul.level0 li.mega.active:hover > a.mega span {border-bottom: 1px solid #F7B6C0;}
+
+.jm-megamenu ul.level0 li.mega .has-image {
+	padding-left: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+	cursor: pointer;
+}
+
+.jm-megamenu ul.level0 li.mega span.menu-title { display: block; }
+
+.jm-megamenu ul.level0 li.mega span.menu-desc {
+	display: block;
+	font-weight: normal;
+	font-size: 92%;
+}
+
+.jm-megamenu ul.level0 li.mega a img {
+	float: left;
+	margin-bottom:15px;
+}
+
+.jm-megamenu ul.level0 li.over, ul.level0 li.haschild-over {}
+
+.jm-megamenu ul.level0 li.haschild a.mega span.menu-title,
+.jm-megamenu ul.level0 li.haschild-over a.mega span.menu-title {}
+
+.jm-megamenu ul.level0 li.haschild a.mega span.menu-desc,
+.jm-megamenu ul.level0 li.haschild-over a.mega span.menu-desc {}
+
+.jm-megamenu ul.level0 li.active {}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Layout ---*/
+.jm-megamenu li.mega .childcontent { display: block; height: auto; position: absolute; }
+
+.jm-megamenu li.mega .childcontent,
+.jm-megamenu li.haschild-over li.mega .childcontent,
+.jm-megamenu li.mega li.haschild-over li.mega .childcontent ,
+.jm-megamenu li.mega li.mega li.haschild-over li.mega .childcontent, 
+.jm-megamenu li.mega li.mega li.mega li.haschild-over li.mega .childcontent, 
+.jm-megamenu li.mega li.mega li.mega li.mega li.haschild-over li.mega .childcontent { left: -999em; /*hide the menu*/ }
+
+.jm-megamenu li.haschild-over .childcontent,
+.jm-megamenu li.haschild:hover > .childcontent,
+.jm-megamenu li.mega li.haschild-over .childcontent,
+.jm-megamenu li.mega li.mega li.haschild-over .childcontent,
+.jm-megamenu li.mega li.mega li.mega li.haschild-over .childcontent,
+.jm-megamenu li.mega li.mega li.mega li.mega li.haschild-over .childcontent,
+.jm-megamenu li.mega li.mega li.mega li.mega li.mega li.haschild-over .childcontent { left: auto; /*show on parent:hover*/ }
+
+.jm-megamenu li.mega .right,
+.jm-megamenu li.haschild-over li.mega .right,
+.jm-megamenu li.mega li.haschild-over li.mega .right ,
+.jm-megamenu li.mega li.mega li.haschild-over li.mega .right, 
+.jm-megamenu li.mega li.mega li.mega li.haschild-over li.mega .right, 
+.jm-megamenu li.mega li.mega li.mega li.mega li.haschild-over li.mega .right { right: auto; /*hide the menu*/ }
+
+.jm-megamenu li.haschild-over .right
+{ right: 0; /*show on parent:hover*/ }
+.jm-megamenu li.mega li.haschild-over .right,
+.jm-megamenu li.mega li.mega li.haschild-over .right,
+.jm-megamenu li.mega li.mega li.mega li.haschild-over .right,
+.jm-megamenu li.mega li.mega li.mega li.mega li.haschild-over .right,
+.jm-megamenu li.mega li.mega li.mega li.mega li.mega li.haschild-over .right 
+{ right: 12em; /*show on parent:hover*/ }
+
+.jm-megamenu ul.level1 li.haschild:hover > .childcontent { left: 150px; }
+
+.jm-megamenu ul.level1 li.mega { float: none; }
+
+.jm-megamenu ul.level1 .childcontent { margin: -2em 0 0 0; }
+
+ /* Columns ---*/
+.jm-megamenu .megacol { float: left;}
+.jm-megamenu .megacol.column1 { padding-top:10px; } 
+.jm-megamenu .megacol.column2 { border-left:1px solid rgba(255,255,255,0.3); padding-left:10px;  border-left:1px solid #f3f3f3\0/}
+.jm-megamenu .megacol.column3 { border-top:1px solid rgba(255,255,255,0.3); padding-top:20px;  border-top:1px solid #f3f3f3\0/; margin-left:20px}
+
+.jm-megamenu .megacol.column2 ul.megamenu,
+.jm-megamenu .megacol.column3 ul.megamenu {
+    margin: 0
+}
+
+.jm-megamenu .megacol.column2 .products-grid { border-bottom:none;}
+
+/* Styling ---*/
+.jm-megamenu ul.level1 li.mega {}
+
+.jm-megamenu ul.level1 li.first {}
+
+.jm-megamenu ul.level1 li.mega a.mega {
+  background: none;
+  border: 0;
+  padding: 5px 0;
+  line-height: 1.5;
+  height: auto;
+  text-transform: none;
+}
+
+.jm-megamenu ul.level1 li.mega a.mega span.menu-title { background: none; padding: 0; }
+
+.jm-megamenu ul.level1 li.haschild > a.mega > span.menu-title,
+.jm-megamenu ul.level1 li.haschild-over > a.mega > span.menu-title,
+.jm-megamenu ul.level2 li.haschild > a.mega > span.menu-title,
+.jm-megamenu ul.level2 li.haschild-over > a.mega > span.menu-title  {
+	background-image: url(../images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	padding: 0;
+}
+
+.jm-megamenu ul.level1 li.over, ul.level1 li.haschild-over {}
+
+.jm-megamenu ul.level1 li.group { background: none; }
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.jm-megamenu .childcontent {
+	z-index: 999;
+	top:48px
+}
+
+.jm-megamenu .childcontent-inner {
+	background: #e31837;
+	/*box-shadow: 0 5px 3px 0 rgba(0,0,0,.1);*/
+	-webkit-box-shadow: -3px 7px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    -3px 7px 5px rgba(0, 0, 0, 0.2);
+	box-shadow:         -3px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jm-megamenu .level1 .childcontent-inner,
+.jm-megamenu .level2 .childcontent-inner {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.jm-megamenu .level1 li,
+.jm-megamenu .level2 li { border-right: none !important}
+
+.jm-megamenu .level2 li a.mega {
+	background: url("../images/white-title.gif") repeat-x right center transparent !important;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 20px 0 0;
+	float:left !important;
+	width:180px;
+	padding:8px 0 !important
+}
+
+.jm-megamenu .level2 li a.mega:hover { color:#333 !important}
+
+.jm-megamenu .level2 li a.mega span {
+	background: #e31837 !important;
+	display:block;
+	float:left;
+	padding-right:10px !important
+}
+
+
+.jm-megamenu .childcontent .block {
+	line-height: 1.5;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.jm-megamenu .childcontent .block h3 {
+	background: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 5px;
+	text-transform: none;
+}
+
+.jm-megamenu .childcontent .block .ja-box-ct {
+	padding: 0 5px;
+}
+
+.jm-megamenu .childcontent .block a {
+	text-decoration: none;
+}
+
+.jm-megamenu .childcontent .block a:hover,
+.jm-megamenu .childcontent .block a:focus,
+.jm-megamenu .childcontent .block a:active {
+	text-decoration: none;
+}
+
+.jm-megamenu .childcontent .block ul:first-child {
+	margin-top: 0 !important;
+}
+
+.jm-megamenu .childcontent .block li {
+	margin-bottom: 5px;
+}
+
+/* Grouped --- */
+.jm-megamenu .group {}
+
+.jm-megamenu .group-title { overflow: hidden; }
+
+.jm-megamenu ul.level1 li.mega div.group-title a.mega {
+  color: #fff;
+  padding:10px 0 0;
+  text-transform: uppercase;
+}
+
+.jm-megamenu .group-title .menu-desc {
+	padding-left: 0 !important;
+}
+
+.jm-megamenu .group-content .block,
+.jm-megamenu .group-content ul.megamenu  {
+	margin: 10px; /* Group-content's gutter*/
+}
+
+/* override --- */
+.jm-megamenu .childcontent ul.megamenu .block {
+	padding: 0;
+}
+
+.jm-megamenu .childcontent ul.megamenu .block h3 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.jm-megamenu .category-products { margin: 0; }
+
+.jm-megamenu .products-grid div.item .item-inner { margin: 10px 10px 0; width: auto; min-height: 0; }
+
+.jm-megamenu .products-grid div.item { width: 180px; float:left; margin-right:20px;}
+
+.jm-megamenu .products-grid div.item  h2 a { color:#fff !important; }
+
+.jm-megamenu .products-grid div.item  h2 a:hover,
+.jm-megamenu .products-grid div.item  h2 a:focus,
+.jm-megamenu .products-grid div.item  h2 a:active {
+	color: #333 !important ;
+	text-decoration: none;
+}
+
+.jm-megamenu .products-grid div.item .ratings { background:none;}
+
+.jm-megamenu .products-grid div.item .price-box { margin-bottom:0;}
+.jm-megamenu .products-grid div.item .price-box .price { color:#fff; }
+
+.jm-megamenu .group .group-content .block img { padding: 0; float: none; }
+
+/* Clearfix
+-------------------------------------------------------------*/
+* html .clearfix {
+	height: 1%; /* IE5-6 */
+}
+
+.clearfix {
+	display: inline-block; /* IE7xhtml*/
+}
+
+html[xmlns] .clearfix { /* O */
+	display: block;  
+}
+
+.clearfix:after { /* FF, O, etc. */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearer { display: block; clear: both; font-size: 0; line-height: 0; height: 0; overflow: hidden; }

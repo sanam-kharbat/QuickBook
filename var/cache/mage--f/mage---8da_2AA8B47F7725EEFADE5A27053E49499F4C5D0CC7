@@ -1,0 +1,77 @@
+<div class="bigbanner bgNew">
+<div class="banner-container">
+
+<h2 class="title">Quickbooks Experts</h2>
+<h3 class="subtitle">Our Quickbooks consulting service cover all the bases from file review to implementation,
+data conversion, custom programing and more.</h3>
+<button type="button" class="getButton">Get Start >></button>
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bgBigNew.jpg" alt="" />
+</div>
+</div>
+
+
+<div class="banner fourpice" id="bannerquick">
+<div class="sequence-theme">
+<div id="sequence">
+<ul class="owl-carousel1 sequence-canvas quickEnter">
+<li class="item animate-in">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="bannerWidth2">
+<div class="banner-container">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<p>Quickbooks Experts</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+

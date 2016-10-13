@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <productslider module="productslider" translate="title">
+            <title>Product Sliders</title>
+            <sort_order>61</sort_order>
+            <children>
+                <productslider module="productslider" translate="title">
+                    <title>Manage Sliders</title>
+                    <sort_order>0</sort_order>
+                    <action>productslideradmin/adminhtml_productslider</action>
+                </productslider>
+                <settings module="productslider" translate="title">
+                    <title>Settings</title>
+                    <sort_order>1000</sort_order>
+                    <action>adminhtml/system_config/edit/section/productslider</action>
+                </settings>
+            </children>
+        </productslider>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <productslider module="productslider" translate="title">
+                                        <title>ProductSlider</title>
+                                        <sort_order>71</sort_order>
+                                    </productslider>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <productslider module="productslider" translate="title">
+                        <title>Product Sliders</title>
+                        <sort_order>71</sort_order>
+                        <children>
+                            <productslider module="productslider" translate="title">
+                                <title>Product Slider</title>
+                                <sort_order>0</sort_order>
+                            </productslider>
+                            <settings module="productslider" translate="title">
+                                <title>Settings</title>
+                                <sort_order>1000</sort_order>
+                            </settings>
+                        </children>
+                    </productslider>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

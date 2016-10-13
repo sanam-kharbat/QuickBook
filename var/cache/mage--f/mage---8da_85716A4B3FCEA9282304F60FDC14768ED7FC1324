@@ -1,0 +1,7 @@
+<h4>Secure Payments</h4>
+                            <ul class="list-inline footer-payment">
+                                <li><a href="#" class="ico-amercian-express">Amercian Express</a></li>
+                                <li><a href="#" class="ico-mastercard">Mastercard</a></li>
+                                <li><a href="#" class="ico-payment">Payment</a></li>
+                                <li><a href="#" class="ico-discover">Discover</a></li>
+                            </ul>

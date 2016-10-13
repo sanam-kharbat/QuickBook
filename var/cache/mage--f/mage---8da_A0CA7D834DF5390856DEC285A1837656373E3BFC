@@ -1,0 +1,40 @@
+<div class="container">
+                                <div class="row">
+                                    <div class="services first">
+                                        <div class="service-img">
+                                            <img src="http://192.168.11.199/magentotest/skin/frontend/accessshop/default/images/communication-care.gif" alt="communication" />
+                                        </div>
+                                        <div class="service-desc">
+                                            <h4>Customer Care</h4>
+                                            <p>+123456789</p>
+                                        </div>
+                                    </div>
+                                    <div class="services">
+                                        <div class="service-img">
+                                            <img src="http://192.168.11.199/magentotest/skin/frontend/accessshop/default/images/money-back.gif" alt="communication" />
+                                        </div>
+                                        <div class="service-desc">
+                                            <h4>Money Back Guarantee</h4>
+                                            <p>At vero santam testa</p>
+                                        </div>
+                                    </div>
+                                    <div class="services">
+                                        <div class="service-img">
+                                            <img src="http://192.168.11.199/magentotest/skin/frontend/accessshop/default/images/special-gift.gif" alt="communication" />
+                                        </div>
+                                        <div class="service-desc">
+                                            <h4>Special Gift Cards</h4>
+                                            <p>Get your free gifts</p>
+                                        </div>
+                                    </div>
+                                    <div class="services last">
+                                        <div class="service-img">
+                                            <img src="http://192.168.11.199/magentotest/skin/frontend/accessshop/default/images/free-shipping.gif" alt="communication" />
+                                        </div>
+                                        <div class="service-desc">
+                                            <h4>Free Shipping Order</h4>
+                                            <p>On All order above $99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
