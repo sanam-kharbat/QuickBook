@@ -12,7 +12,7 @@
 	$_productCollection	=  $this->_getAllProducts();
     $i=0;
 ?>
-<div class="best-sales">
+<div class="best-sales marginPadding">
     <div class="best-sales-title bestSellerHeader">
         <h2>SHOP SMALL BUSINESS DEALS</h2>
         <div class="slidercontrols">
@@ -51,6 +51,9 @@
                                         <?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?>
                                     </a>
                                 </h3>
+                                <?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
+                                <button type="button" title="<?php echo $this->__('SHOP NOW') ?>" class="button btn-cart shopNowBottomPro" onclick="setLocation('<?php echo $_product->getProductUrl() ?>')"><span><span>SHOP NOW >></span></span></button>
+                               
                                 <!--<?php echo $this->getPriceHtml($_product, true) ?>-->
                             </div>
                             <div class="display-onhover">
@@ -64,7 +67,7 @@
                                 <ul class="add-to-links">
                                     <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
                                         <li>
-                                            <a title="<?php echo $this->__('Add to Compare') ?>" href="<?php echo $_compareUrl ?>" class="link-compare"><i class="fa fa-link"></i></a></li>
+                                            <a title="<?php echo $this->__('Add to Compare') ?>" href="<?php echo $_compareUrl ?>" class="link-compare"><i class="fa fa-refresh"></i></a></li>
                                         <?php endif; ?>
                                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
                                         <li><a title="<?php echo $this->__('Add to Wishlist') ?>" href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><i class="fa fa-heart"></i></a></li>

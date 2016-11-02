@@ -5,27 +5,27 @@
  * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
  */
 ?>
-<div class="container">
+<div class="container-fluid">
 	<div class="row footerBackground">
-        <div class="col-sm-12">
+        <div class="col-md-12 col-sm-12">
             <div class="block-footer-company">
                 <?php echo $this->getChildHtml('footer-company'); ?>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 left-links">
+        <div class="col-md-12 col-sm-12 left-links footerSet">
             <div class="row">
                 <div class="col-sm-3 block-footer-cmslinks">
                     <?php echo $this->getChildHtml('footer-cmslinks'); ?>
                 </div>
-                <div class="col-sm-2 block-footer-cmslinks">
+                <div class="col-sm-3 block-footer-cmslinks">
                     <?php echo $this->getChildHtml('footer-cmslinks1'); ?>
                 </div>
-                <div class="col-sm-2 block-footer-cmslinks">
+                <!--<div class="col-sm-2 block-footer-cmslinks">
                     <?php echo $this->getChildHtml('footer-contact-info'); ?>
-                </div>
-                <div class="col-sm-2 block-footer-cmslinks">
+                </div>-->
+                <div class="col-sm-3 block-footer-cmslinks">
                 <?php echo $this->getChildHtml('footer-social'); ?>
             	</div>
 				<div class="col-sm-3 block-footer-recent-products">
@@ -42,7 +42,7 @@
     </div>
     
     <div class="row footerBackgroundBtm">
-        <div class="col-sm-12 block-copyright pull-left">
+        <div class="col-md-12 col-sm-12 block-copyright pull-left">
             <?php echo $this->getCopyright(); ?>
             <!--<p class="pull-right">A free Magento Theme by: <a href="http://accessshopthemes.com/">AccessShopThemes.com</a></p>-->
         </div>

@@ -6,7 +6,7 @@
  */
 ?>
 <?php $catalogSearchHelper = $this->helper('catalogsearch'); ?>
-<!--<form id="search_mini_form" class="navbar-form navbar-right" role="search" action="<?php echo $catalogSearchHelper->getResultUrl()?>" method="get">
+<form id="search_mini_form" class="navbar-form navbar-right" role="search" action="<?php echo $catalogSearchHelper->getResultUrl()?>" method="get">
     <div class="form-group">
         <div class="input-group">
             <div class="categories-search">
@@ -44,7 +44,7 @@
         </div>
     </div>
     <div id="search_autocomplete" class="search-autocomplete"></div>
-</form>-->
+</form>
 <script type="text/javascript">
 //<![CDATA[
 var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Search...') ?>');

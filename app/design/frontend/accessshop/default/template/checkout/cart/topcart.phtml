@@ -8,12 +8,12 @@
 <?php if ($this->getIsNeedToDisplaySideBar()):?>
 <ul class="list-inline topcart">
     <li>
-        <label for="top-cart">SHOPPING CART:</label>
+        <!--<label for="top-cart">SHOPPING CART:</label>
         <span class="cart-sub-total">
 			<?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal())?> 
 			<?php echo Mage::app()->getStore()->getCurrentCurrencyCode();?>
 		</span>
-        <?php $_cartQty = $this->getSummaryCount() ?>
+        <?php $_cartQty = $this->getSummaryCount() ?>-->
         <div class="top-shopping-cart">
         <i class="fa fa-shopping-cart"></i>
         <?php if ($_cartQty>0): ?>

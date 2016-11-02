@@ -2704,7 +2704,7 @@
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
-		navContainerClass: 'owl-nav',
+		navContainerClass: 'owl-nav', 
 		navClass: [ 'owl-prev', 'owl-next' ],
 		slideBy: 1,
 		dotClass: 'owl-dot',

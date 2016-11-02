@@ -18,7 +18,7 @@
 });
 jQuery('.fourpice .owl-carousel1').owlCarousel({
     loop:false,
-    margin:-30,
+    margin:-70,
     nav:true,
     autoplay:true,
     autoplayTimeout:3000,

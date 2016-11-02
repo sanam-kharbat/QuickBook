@@ -24,7 +24,7 @@
                         <div class="col-sm-12 text-right">
                             <?php echo $this->getChildHtml('block_header_links_right');?>
                             <?php echo $this->getChildHtml('topLinks');?>
-                            <div class="top-cart"><?php echo $this->getChildHtml('top_cart'); ?></div>
+                            
                         </div>
                     </div>
                 </div>
@@ -36,14 +36,14 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="row">
-        	<div class="col-md-4">
+        	<div class="col-md-3">
             	<div class="logo">
                 <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>">
                     <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" />
                 </a>
             </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9 headertopPadding">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-collapse">
                  <span class="sr-only">Toggle navigation</span>
@@ -55,7 +55,10 @@
            </div>
             <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
                 <?php echo $this->getChildHtml('topMenu') ?>
+                
+                <div class="top-cart"><?php echo $this->getChildHtml('top_cart'); ?></div>
             </div>
+            
             </div>
             
         </div>

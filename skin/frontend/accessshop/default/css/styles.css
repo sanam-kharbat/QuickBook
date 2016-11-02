@@ -114,8 +114,8 @@ ul,ol         { list-style:none; }
 .col3-layout .col-wrapper .col-main { float:right; }
 
 /* Content Columns */
-.col2-set .col-1 { float:left; width:49%; }
-.col2-set .col-2 { float:right; width:49%; }
+.col2-set .col-1 { float:left; width:49%;}
+.col2-set .col-2 { float:right; width:100%; }
 .col2-set .col-narrow { width:33%; }
 .col2-set .col-wide { width:65%; }
 
@@ -247,7 +247,7 @@ p.control input.radio { margin-right:6px; }
 .form-list .customer-dob .dob-year { width:140px; }
 .form-list .customer-dob .dob-year input.input-text { width:134px; }
 
-.buttons-set { clear:both; margin:5px 0 20px; padding:5px 0; /*border:1px solid #ddd;*/ }
+.buttons-set { clear:both; margin:5px 0 20px; padding:5px 21px; /*border:1px solid #ddd;*/ }
 .buttons-set .back-link { margin: 10px 0; }
 .buttons-set .back-link a{ color: #fe0b0b;}
 .buttons-set button.button { /*float:right;*/ }
@@ -292,9 +292,9 @@ p.required { font-size:10px; text-align:right; color:#f00; }
 .breadcrumbs li { display:inline; }
 
 /* Page Heading */
-.page-title { border-bottom:1px solid #ddd; /*padding:0 0 5px;*/ margin:0 0 10px; padding-top: 8px;}
+.page-title { border-bottom:1px solid #ddd; /*padding:0 0 5px;*/ margin:0 0 10px; padding-top: 8px;text-align:center;}
 .page-title h1,
-.page-title h2 { border-bottom: 1px solid #f23f3f;
+.page-title h2 { /*border-bottom: 1px solid #f23f3f;*/
     color: #333333;
     display: inline-block;
     font-family: "Roboto Condensed",sans-serif;
@@ -603,7 +603,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-reorder .product-name { margin-left:20px; }
 
 /* Block: Banner */
-.block-banner {}
+.block-banner {display: none;}
 .block-banner .block-content { text-align:center; }
 
 /* Block: Login */
@@ -795,7 +795,7 @@ tr.summary-details-excluded { font-style:italic; }
 .add-to-box .add-to-links { float:left; }
 
 
-.product-view {}
+.product-view {margin-top: 15px;padding: 0 50px;}
 
 .product-essential {}
 
@@ -915,7 +915,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 
 /* Shopping Cart ========================================================================= */
-.cart {}
+.cart {padding: 0 50px;}
 
 /* Checkout Types */
 .cart .checkout-types { float:right; text-align:right; }
@@ -1216,7 +1216,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 
 /* Account Login/Create Pages ============================================================ */
-.account-login #login-form .col2-set{ margin-bottom: 20px;}
+.account-login #login-form .col2-set{ margin-bottom: 20px;padding: 0 50px;}
 .account-login .new-users .buttons-set{ padding-left:0;}
 .account-login .new-users .buttons-set button.button {float:left;}
 .account-login .new-users-wrapper { float:left;margin-bottom:20px; width:48%; }
