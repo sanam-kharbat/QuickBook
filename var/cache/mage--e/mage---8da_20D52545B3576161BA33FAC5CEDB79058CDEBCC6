@@ -1,8 +1,8 @@
-<!--<h1 class="logo"><span>quick</span>Books</h1>-->
+<!--<h1 class="logo"><span>quick</span>Books</h1>
 <ul class="custom-link list-inline">
 <li><a title="FAQs" href="{{store_url=">FAQs</a></li>
 <li><a title="Testimonials" href="{{store_url=">Testimonials</a></li>
 <li><a title="Help" href="{{store_url=">Help</a></li>
 <li><a title="Careers" href="{{store_url=">Careers</a></li>
-<!--<li><a title="Login" href="{{store_url=">Login</a></li>-->
-</ul>
+<li><a title="Login" href="{{store_url=">Login</a></li>
+</ul>-->

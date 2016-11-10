@@ -2,13 +2,25 @@
 <div class="banner-container">
 
 <h2 class="title">Quickbooks Experts</h2>
-<h3 class="subtitle">Our Quickbooks consulting service cover all the bases from file review to implementation,
-data conversion, custom programing and more.</h3>
-<button type="button" class="getButton">Get Start >></button>
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bgBigNew.jpg" alt="" />
+<h3 class="subtitle">Experience superior services right from getting you set up to handling your payroll taxes, data conversion and a wide range of customization. </h3>
+<!--<button type="button" class="getButton">Get Start >></button>-->
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/bgBigOne.jpg" alt="" />
 </div>
 </div>
 
+
+<!--<div id="owl-demo" class="owl-carousel owl-theme fourpice">
+  <div class="item"><a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a></div>
+  <div class="item"><a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a></div>
+  <div class="item"><a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a></div>
+  <div class="item"><a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a></div>
+  <div class="item"><a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a></div>
+</div>-->
 
 <div class="banner fourpice" id="bannerquick">
 <div class="sequence-theme">
@@ -17,7 +29,8 @@ data conversion, custom programing and more.</h3>
 <li class="item animate-in">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000009_intuit-quickbooks-pro-2016_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>
@@ -25,7 +38,8 @@ data conversion, custom programing and more.</h3>
 <li class="item">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-2017-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000139_quickbooks-2016-mac_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>
@@ -33,7 +47,8 @@ data conversion, custom programing and more.</h3>
 <li class="item">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-essentials-2017-small-business-accounting-with-payroll-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000056_quickbooks-online-essentials-2016-small-business-accounting-with-payroll-pc-mac_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>
@@ -41,7 +56,8 @@ data conversion, custom programing and more.</h3>
 <li class="item">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-plus-2017-small-business-accounting-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000057_quickbooks-online-plus-2016-small-business-accounting-pc-mac_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>
@@ -49,7 +65,8 @@ data conversion, custom programing and more.</h3>
 <li class="item">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-online-simple-start-2017-small-business-accounting-pc-mac.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000060_quickbooks-online-simple-start-2016-small-business-accounting-pc-mac_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>
@@ -57,15 +74,8 @@ data conversion, custom programing and more.</h3>
 <li class="item">
 <div class="bannerWidth2">
 <div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
-<p>Quickbooks Experts</p>
-</div>
-</div>
-</li>
-<li class="item">
-<div class="bannerWidth2">
-<div class="banner-container">
-<img src="http://192.168.11.199/magentotest/media/wysiwyg/bottomSec.png" alt="" />
+<a href="http://192.168.11.199/magentotest/index.php/quickbooks-premier-2017-small-business-accounting-software-with-industry-editions.html/?___SID=U" target="_blank">
+<img src="http://192.168.11.199/magentotest/media/wysiwyg/0000066_quickbooks-premier-2016-small-business-accounting-software-with-industry-editions_550.jpeg" alt="" /></a>
 <p>Quickbooks Experts</p>
 </div>
 </div>

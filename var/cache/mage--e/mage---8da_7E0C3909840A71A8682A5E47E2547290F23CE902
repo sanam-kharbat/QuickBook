@@ -2,7 +2,7 @@
 	<div class="row footerBackground">
         <div class="col-md-12 col-sm-12">
             <div class="block-footer-company">
-                <p>Our social marketing solutions help more than 2500 companies around the world
+                <p>Our solutions help more than 2500 companies around the world
 deliver great results. We can’t stand average, and our clients can’t either.</p>            </div>
         </div>
     </div>
@@ -31,14 +31,15 @@ Fleeing from the Cylon tyranny</p>
                                 <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ureturn-policy">Return policy</a></li>
                             </ul>-->                </div>
                 <div class="col-sm-3 block-footer-cmslinks">
-                    <h4>OUR PRODUCTS</h4>
+                    <h4>INFORMATION</h4>
 <ul>
-                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uhow-to-buy">Take The Tour</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ufaqs">Plans & Pricing</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Upayments">Influencer Marketing</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ushipments">Social Media Monitoring</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uwhere-is-my-order">Free Tools</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ureturn-policy">API</a></li>
+                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Usitemap">Sitemap</a></li>
+                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ushipping-return">Shipping & returns</a></li>
+                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Udisclaimer">Disclaimer</a></li>
+                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uprivacy-policy">Privacy Policy</a></li>
+                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uterms-conditions">Terms & Conditions</a></li>
+                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uabout-us">About us</a></li>
+                               <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucontacts/">Contact us</a></li>
                             </ul>
 <!--<h4>Style Advisor</h4>
                             <ul>
@@ -52,16 +53,17 @@ Fleeing from the Cylon tyranny</p>
                 <!--<div class="col-sm-2 block-footer-cmslinks">
                                     </div>-->
                 <div class="col-sm-3 block-footer-cmslinks">
-                <h4>NEED HELP</h4>
+                <h4>MY ACCOUNT</h4>
 <ul>
-                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucontacts/">Contact Us</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ufaqs">Our Blog</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Upayments">Metrics Help Desk</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ushipments">Metrics System Status</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uprivacy-policy-cookie-restriction-mode/">FAQs</a></li>
+                             <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/account">My Account</a></li>
+                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Usales/order/history">Orders</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/address">Addresses</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucheckout/cart">Shopping cart</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uwishlist">Wishlist</a></li>
                             </ul>                             	</div>
-				<div class="col-sm-3 block-footer-recent-products">
-                    <div class="newsletter-subscribe">
+				<div class="col-sm-3 right-links">
+		            <div class="block-footer-recent-products">
+		                    <div class="newsletter-subscribe">
     <h4>SUBSCRIBE US</h4>
     <form action="http://192.168.11.199/magentotest/index.php/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
         <div class="block-content">
@@ -82,20 +84,23 @@ Fleeing from the Cylon tyranny</p>
     //]]>
     </script>
 </div>
-                </div>
-            </div>
-        </div>
-        <!--<div class="col-sm-3 right-links">
-            
-            <div class="block-footer-cards">
-                <h4>Secure Payments</h4>
+		                </div>
+		            <div class="block-footer-cards">
+		                <img style="width: 80px;float: left;position: absolute;left: 0;top: 110px;" src="http://192.168.11.199/magentotest/media/wysiwyg/contact-us-icon-png-316New.png" alt="" />
+<h1 style="width:90%;font-size: 17px;top: 33px;position: relative;color: #fff;left: 70px;font-weight: bold;">1-844-649-1813</h1>
+
+
+<!--<h4>Secure Payments</h4>
                             <ul class="list-inline footer-payment">
                                 <li><a href="#" class="ico-amercian-express">Amercian Express</a></li>
                                 <li><a href="#" class="ico-mastercard">Mastercard</a></li>
                                 <li><a href="#" class="ico-payment">Payment</a></li>
                                 <li><a href="#" class="ico-discover">Discover</a></li>
-                            </ul>            </div>
-        </div>-->
+                            </ul>-->		            </div>
+		        </div>
+            </div>
+        </div>
+        
     </div>
     
     <div class="row footerBackgroundBtm">

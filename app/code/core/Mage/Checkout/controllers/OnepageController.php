@@ -117,7 +117,7 @@ class Mage_Checkout_OnepageController extends Mage_Checkout_Controller_Action
      *
      * @return string
      */
-  /*  protected function _getShippingMethodsHtml()
+    protected function _getShippingMethodsHtml()
     {
         $layout = $this->getLayout();
         $update = $layout->getUpdate();
@@ -127,7 +127,7 @@ class Mage_Checkout_OnepageController extends Mage_Checkout_Controller_Action
         $output = $layout->getOutput();
         return $output;
     }
-*/
+
     /**
      * Get payment method step html
      *

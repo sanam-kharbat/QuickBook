@@ -1,44 +1,83 @@
+<div class="contactNoStrip">
+<p>Call : 1-844-649-1813</p>
+</div>
 <div class="feturedServices">
  <h1>Featured Services</h1>
 </div>
-<div class="wrappernew">
-                      
-			<div class="firstDiv comClass">
-				
-				<div id="overlaynew">
-			      <span id="plus">QuickBooks File Review</span>
-			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
-			      <button class="learnButton">Learn More &gt;&gt;</button>
-			    </div>
-			    <h4>QuickBooks File Review</h4>
+<div class="container wrapperQuickFile">
+			<div class="quickFilefirst">
+				<div class="divquickFilefirst">
+					<div id="overlayQuick">
+						<div class="overlaywrap">
+							<span id="plus">QuickBooks Software</span>
+							<p class="underClass">
+								Manage all your business needs better with our wide varieties of QuickBooks.
+							</p>
+                                                      <img src="http://192.168.11.199/magentotest/media/wysiwyg/images-combo.gif" alt="" />
+                                                        <p class="teleCall"><!--<img src="http://192.168.11.199/magentotest/media/wysiwyg/call-icon-2.png" alt="" />--><img src="http://192.168.11.199/magentotest/media/wysiwyg/call-icon-2_1.png" alt="" />Call Toll Free- <span class="tfn-font">1-844-637-8776</span> to help you.”</p>
+							<!--<button class="learnButton">
+								View All &gt;&gt;
+							</button>-->
+						</div>
+					</div>
+                                      <img src="http://192.168.11.199/magentotest/media/wysiwyg/quickbook-software.jpg" alt="" />
+					<h4 class="underHeading">QuickBooks Software</h4>
+				</div>
 			</div>
-			<div class="secDiv comClass">
-				
-				
-				<div id="overlaynew">
-			      <span id="plus">QuickBooks File Review</span>
-			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
-			      <button class="learnButton">Learn More &gt;&gt;</button>
-			    </div>
-			      <h4>QuickBooks File Review</h4>
+
+			<div class="quickFileSec">
+				<div class="divquickFileSec">
+					<div id="overlayQuick">
+						<div class="overlaywrap">
+							<span id="plus">QuickBooks Hardware Peripherals</span>
+							<p class="underClass">
+								Experience a smarter and easy to use way to manage inventory, track customer information and more.
+							</p>
+							<!--<button class="learnButton">
+								View All &gt;&gt;
+							</button>-->
+						</div>
+					</div>
+					 <img src="http://192.168.11.199/magentotest/media/wysiwyg/quickbook-hardware.jpg" alt="" />
+					<h4>QuickBooks Hardware Peripherals</h4>
+				</div>
 			</div>
-			<div class="thrdDiv comClass">
-				
-				<div id="overlaynew">
-			      <span id="plus">QuickBooks File Review</span>
-			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
-			      <button class="learnButton">Learn More &gt;&gt;</button>
-			    </div>
-			     <h4>QuickBooks File Review</h4>
+
+			<div class="quickFileThird">
+				<div class="divquickFileThird">
+					<div id="overlayQuick">
+						<div class="overlaywrap">
+							<span id="plus">QuickBooks Enterprize</span>
+							<p class="underClass">
+								Enjoy access to custom reporting, user permissions, inventory management, and more with QuickBooks Enterprise.
+							</p>
+							<!--<button class="learnButton">
+								View All &gt;&gt;
+							</button>-->
+						</div>
+					</div>
+					 <img src="http://192.168.11.199/magentotest/media/wysiwyg/quickbook-enterprise.jpg" alt="" />
+					<h4>QuickBooks Enterprize</h4>
+				</div>
 			</div>
-			<div class="frthDiv comClass">
-				
-				<div id="overlaynew">
-			      <span id="plus">QuickBooks File Review</span>
-			      <p class="underClass">Our 27-point file review provides you with detailed insight on the state of your QuickBooks file.</p>
-			      <button class="learnButton">Learn More &gt;&gt;</button>
-			    </div>
-			     <h4>QuickBooks File Review</h4>
+
+			<div class="quickFileFrth">
+				<div class="divquickFileFrth">
+					<div id="overlayQuick">
+						<div class="overlaywrap">
+							<span id="plus">QuickBooks File Review</span>
+							<p class="underClass">
+								Get a comprehensive understanding of your QuickBooks file with our expert QuickBooks File Review. 
+							</p>
+							<!--<button class="learnButton">
+								View All &gt;&gt;
+							</button>-->
+						</div>
+					</div>
+             
+					 <img src="http://192.168.11.199/magentotest/media/wysiwyg/quickbook-file-review.jpg" alt="" />
+					<h4>QuickBooks File Review</h4>
+				</div>
 			</div>
 		</div>
 
@@ -49,8 +88,8 @@
 <li class="item animate-in bg1">
 <div class="bannerWidth2">
 <div class="banner-container">
-<h2 class="title">QuickBooks Enterprise</h2>
-<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<h2 class="title">Roll up Your Sleeves!</h2>
+<h3 class="subtitle">And be a trenssetter Guess Y ? Access Countless Smart Payroll Tools on the Go!</h3>
 <button href="#" class="getBtn">Get Start &gt;&gt;</button>
 </div>
 </div>
@@ -58,8 +97,8 @@
 <li class="item  bg2">
 <div class="bannerWidth2">
 <div class="banner-container">
-<h2 class="title">QuickBooks Enterprise</h2>
-<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<h2 class="title">Give your Beloved Employees an Everlasting Smile!</h2>
+<h3 class="subtitle">Tools that save taxes, speed up the payroll, And soar up dividends like never before!</h3>
 <button href="#" class="getBtn">Get Start &gt;&gt;</button>
 </div>
 </div>
@@ -67,8 +106,8 @@
 <li class="item  bg3">
 <div class="bannerWidth2">
 <div class="banner-container">
-<h2 class="title">QuickBooks Enterprise</h2>
-<h3 class="subtitle">Designed for growing business managing more complexity, Enterprise is Intuit, most flexible version of QuickBooks..</h3>
+<h2 class="title">Now be your own QuickBooks Expert</h2>
+<h3 class="subtitle">Get Free Customer Support and live Expert Counseling Never let your boat sink in!</h3>
 <button href="#" class="getBtn">Get Start &gt;&gt;</button>
 </div>
 </div>

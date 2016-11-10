@@ -42,10 +42,10 @@
 	display: none;
 }
 a {
-	color: #f23f3f;
+	color: #000;
 }
 a:hover {
-	color: #f23f3f;
+	color: #000;
 	text-decoration: underline;
 }
 .cms-home header, .cms-digital-marketing header{
@@ -56,17 +56,23 @@ a:hover {
 	z-index: 99999;
 }
 header {
-    position: fixed !important;
     top: 0;
     transition: all 0.4s ease;
     margin: 0 auto;
     width: 100%;
-    z-index: 99999;
+    z-index: 1;
 }
+
 .maincontent{
 	margin: 80px 0 0 0;
 }
-.cms-home .maincontent{
+.cms-home .maincontent, .catalog-category-view .maincontent, .catalog-product-view .maincontent
+,.checkout-cart-index .maincontent, .checkout-onepage-index .maincontent,  .checkout-onepage-success .maincontent,
+.cms-no-route .maincontent, .contacts-index-index .maincontent, .cms-page-view .maincontent, .customer-account-index .maincontent,
+.customer-account-edit .maincontent, .customer-address-index .maincontent, .sales-order-history .maincontent,
+.sales-billing-agreement-index .maincontent, .sales-recurring-profile-index .maincontent, .review-customer-index .maincontent,
+.tag-customer-index .maincontent, .wishlist-index-index .maincontent, .oauth-customer-token-index .maincontent, .newsletter-manage-index .maincontent,
+.downloadable-customer-products .maincontent, .mageplaza-betterblog-post-customer-comment-index .maincontent, .customer-account-logoutsuccess .maincontent{
 	margin: 0 0 0 0;
 }
 .catalog-category-view header, .catalog-product-view header, .checkout-cart-index header,
@@ -88,16 +94,37 @@ header{
 }
 .header-top {
 	font-size: 13px;
-	
 	color: #fff;
 	background: rgba(0, 0, 0, 0.5);
 	width: 100%;
 	height: 30px;
 	line-height: 30px;
 	padding: 10px 0 0 0;
-	z-index: 9999;
+	z-index: 999;
 	position: relative;
 }
+.contactNoStrip{
+  position: fixed;
+  right: 0;
+  top: 22%;
+  z-index: 999;
+  margin-top: -2.5em;
+  background-color: #fbbc25;
+  color:#000;
+  font-family: hemi_head_bd_it_0;
+  font-size: 20px;
+  padding: 9px 9px 0px 9px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+.contactNoStrip:hover{
+   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.tableSetCms{width:100%;border: 1px solid black;border-collapse: collapse;}
+.tableSetCms, tr, td{border:1px solid #808080; padding: 5px 0;}
 .left-header-top {
 	padding-top: 5px;
 }
@@ -572,7 +599,7 @@ header{
 }
 .quickFileThird .overlaywrap {
 	position: absolute;
-	bottom: 15%;
+	bottom: 25%;
 	width: 100%;
 }
 .quickFileThird .divquickFileThird {
@@ -760,21 +787,21 @@ header{
 	padding: 0 0 0 0 !important;
 }
 .sequence-canvas li.bg110 {
-	background-image: url(../images/bg1.jpg);
+	background-image: url(../images/marchant-serviceBanner.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	width: 100%;
 	float: left;
 }
 .sequence-canvas li.bg220 {
-	background-image: url(../images/bg2.jpg);
+	background-image: url(../images/marchant-serviceBanner.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	width: 100%;
 	float: left;
 }
 .sequence-canvas li.bg330 {
-	background-image: url(../images/bg3.jpg);
+	background-image: url(../images/marchant-serviceBanner.jpg);
 	background-repeat: no-repeat;
 	height: 300px;
 	width: 100%;
@@ -1018,13 +1045,16 @@ header{
 	margin-top: 20px;
 }
 .best-sales-title, .category-title {
-	/*border-bottom: 1px solid #e2e2e2;*/
+	
 	margin-bottom: 10px;
 	padding-bottom: 0;
 	text-align: center;
 }
+.page-title{
+	border-bottom: 1px solid #e5e5e5;
+}
 .best-sales-title h2, .category-title h1 {
-	/*border-bottom: 1px solid #f23f3f;*/
+	/*border-bottom: 1px solid #e5e5e5;*/
 	color: #333333;
 	display: inline-block;
 	font-family: Roboto-Bold_0 !important;
@@ -1032,6 +1062,7 @@ header{
 	line-height: 40px;
 	/*margin-bottom: -1px;*/
 	margin-top: 0;
+	/*width:100%;*/
 	text-transform: uppercase;
 }
 
@@ -1687,8 +1718,8 @@ select {
 	margin-bottom: 10px;
 }
 .product-name h1 {
-	border-bottom: 1px solid #f23f3f;
-	color: #f23f3f;
+	/*border-bottom: 1px solid #f23f3f;*/
+	color: #000;
 	display: inline-block;
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 25.04px;
@@ -2008,7 +2039,7 @@ p.required, .product-options dt label.required em, .form-list label.required em 
 	right: 0px;
 	text-align: left;
 	top: 41px;
-	width: 125px;
+	width: 500px;
 	z-index: 999;
 }
 .topcart-content p {
@@ -2165,7 +2196,8 @@ ul.list-inline {
 	right: 0;
 	top: 0;
 	text-align: right;
-	width: 120px;
+	width: 290px;
+	display: inline-flex;
 }
 /* -------------------------------------------- *
  * Messages
@@ -2479,6 +2511,7 @@ ul.list-inline {
 }
 .add-to-links > li {
 	margin-bottom: 3px;
+	
 }
 .add-to-links li a:hover {
 	color: #f23f3f;
@@ -2509,62 +2542,7 @@ ul.list-inline {
 .block-content img {
 	width: 100%;
 }
-/*.sequence-canvas li.bg1 {
- background-image: url(../images/bannerFirst.jpg);
- background-repeat: no-repeat;
- }
- .sequence-canvas li.bg2 {
- background-image: url(../images/bannerSec.jpg);
- background-repeat: no-repeat;
- }
- .sequence-canvas li.bg3 {
- background-image: url(../images/bannerThrd.jpg);
- background-repeat: no-repeat;
- }
- .sequence-canvas .title {
- color: #333333;
- font-family: 'Roboto Condensed', sans-serif;
- font-size: 76px;
- font-weight: 300;
- text-transform: none;
- line-height: 72px;
- }
- .sequence-canvas .title span {
- color: #f23f3f;
- }
- .sequence-canvas .subtitle {
- color: #333333;
- font-family: "Roboto Condensed", sans-serif;
- font-size: 33px;
- font-weight: 300;
- line-height: 34px;
- text-transform: none;
- }
- .bg1 h2.title {
- font-size: 58px;
- }
- .bg2 h2.title {
- font-size: 55px;
- }
- .bg2 .subtitle {
- top: 47% !important;
- }
- .bg3 h2.title {
- font-size: 58px;
- }
- .bg3 .subtitle {
- top: 47% !important;
- }
- .banner-arrow-container {
- margin: auto;
- margin-top: -19px;
- max-width: 1170px;
- position: relative;
- top: 50%;
- opacity: 1;
- }
- */
-/*************************************************************/
+
 .banner {
 	background: #cccccc;
 	margin-bottom: 35px;
@@ -2912,7 +2890,7 @@ ul.list-inline {
 	font-weight: normal;
 	text-decoration: inherit;
 	/*--adjust as necessary--*/
-	color: #333;
+	color: #fff;
 	font-size: 12px;
 	padding-right: 0.5em;
 	position: absolute;
@@ -2946,9 +2924,10 @@ ul.list-inline {
 	border-radius: 0;
 	padding: 0 !important;
 	border: none;
-	background-color: #000;
+	background-color:#000;
 }
 .dropdown-menu:hover {
+	/*background-color: rgba(0, 0, 0, 0.5) !important;*/
 	background-color: #000 !important;
 }
 .dropdown-menu > li > a {
@@ -3994,6 +3973,22 @@ ul.list-inline {
 .category-support-for-quickbooks .col-main .category-title h1{
 	display: none;
 }
+.shippingreturnPage, .disclaimerPage, .privacyPolicyPage, .termsConPage{
+	float: left;
+    width: 95%;
+    margin-left: 3%;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Roboto-Regular_1 !important;
+}
+.featuresPage .col-1{
+	float: left;
+    width: 95%;
+    margin-left: 3%;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Roboto-Regular_1 !important;
+}
 .supportHeading h1{
 	color: #365ebf;
 	font-size: 2em;
@@ -4032,4 +4027,17 @@ ul.list-inline {
     font-size: 1.5em;
     font-weight: bold;
     text-transform: capitalize;
+}
+.descriptionSupport{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 35px;
+    line-height: 63px;
+}
+.descriptionSupport .quickBook{
+	font-size: 70px;
+}
+.descriptionSupport .supportCall{
+	font-size: 41px;
 }

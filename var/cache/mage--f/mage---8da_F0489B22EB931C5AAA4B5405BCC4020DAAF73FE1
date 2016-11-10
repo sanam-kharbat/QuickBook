@@ -1,8 +1,8 @@
-<h4>NEED HELP</h4>
+<h4>MY ACCOUNT</h4>
 <ul>
-                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucontacts/">Contact Us</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ufaqs">Our Blog</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Upayments">Metrics Help Desk</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ushipments">Metrics System Status</a></li>
-                                <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uprivacy-policy-cookie-restriction-mode/">FAQs</a></li>
+                             <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/account">My Account</a></li>
+                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Usales/order/history">Orders</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/address">Addresses</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucheckout/cart">Shopping cart</a></li>
+                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uwishlist">Wishlist</a></li>
                             </ul>                 

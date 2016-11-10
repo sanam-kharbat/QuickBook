@@ -120,6 +120,24 @@
 </li>
 </ul>
 </li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Blog</span></a>
+<ul >
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_post/new/key/$betterblog_post/new$/"   class=""><span>Add New</span></a>
+</li>
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_post/index/key/$betterblog_post/index$/"   class=""><span>Manage Posts</span></a>
+</li>
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_post_comment/index/key/$betterblog_post_comment/index$/"   class=""><span>Manage Comments</span></a>
+</li>
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_post_attribute/index/key/$betterblog_post_attribute/index$/"   class=""><span>Post Attributes</span></a>
+</li>
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_category/index/key/$betterblog_category/index$/"   class=""><span>Manage Categories</span></a>
+</li>
+<li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/betterblog_tag/index/key/$betterblog_tag/index$/"   class=""><span>Manage Tags</span></a>
+</li>
+<li  class="  last level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/system_config/edit/section/mageplaza_betterblog/key/$system_config/edit$/"   class=""><span>Settings</span></a>
+</li>
+</ul>
+</li>
 <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>CMS</span></a>
 <ul >
 <li  class="  level1"> <a href="http://192.168.11.199/magentotest/index.php/admin/cms_page/index/key/$cms_page/index$/"   class=""><span>Pages</span></a>
