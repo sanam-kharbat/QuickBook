@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <Mageplaza_ProductSlider>
-            <active>true</active>
-            <codePool>local</codePool>
-        </Mageplaza_ProductSlider>
-    </modules>
-</config>

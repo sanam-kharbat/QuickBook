@@ -1,8 +1,0 @@
-<h4>MY ACCOUNT</h4>
-<ul>
-                             <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/account">My Account</a></li>
-                            <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Usales/order/history">Orders</a></li>
-                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucustomer/address">Addresses</a></li>
-                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Ucheckout/cart">Shopping cart</a></li>
-                           <li><a href="http://192.168.11.199/magentotest/index.php/?___SID=Uwishlist">Wishlist</a></li>
-                            </ul>                 

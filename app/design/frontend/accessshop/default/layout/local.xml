@@ -22,6 +22,7 @@
             <action method="addItem"><type>skin_css</type><stylesheet>css/main.css</stylesheet></action>
             <action method="addItem"><type>skin_css</type><stylesheet>css/main-responsive.css</stylesheet></action>
              <action method="addItem"><type>skin_css</type><stylesheet>css/owl.carousel.css</stylesheet></action>
+			 <action method="addItem"><type>skin_css</type><stylesheet>css/owl.banner.css</stylesheet></action>
 
             <!-- JS -->
             <!-- jQuery -->
@@ -38,6 +39,7 @@
             <!-- Custom Scripts in this file -->
             <action method="addItem"><type>skin_js</type><name>js/jquery.scripts.js</name></action>
             <action method="addItem"><type>skin_js</type><name>js/owl.carousel.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>js/owl.banner.js</name></action>
              <action method="addItem"><type>skin_js</type><name>js/custom.js</name></action>
         </reference>
         <reference name="root">

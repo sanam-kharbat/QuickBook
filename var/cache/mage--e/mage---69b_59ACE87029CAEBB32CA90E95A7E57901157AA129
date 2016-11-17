@@ -1,0 +1,72 @@
+<div class="feturedServices">
+ <h1>QuickBooks For Your Specific Industry</h1>
+</div>
+<div class="container wrapperSec">
+			<div class="firstDivSec">
+				<img src="http://192.168.11.199/quickbook/media/wysiwyg/intuit-quickbooks-contractor.jpg" alt="" />
+				<h4>Contractor</h4>
+				<p>
+					Invest more time and money on your business by staying stay on top of your cost and cash flow.
+				</p>
+				<!--<button class="learnButtonSec">
+					Learn More &gt;&gt;
+				</button>-->
+			</div>
+			<div class="secDivSec">
+				<img src="http://192.168.11.199/quickbook/media/wysiwyg/intuit-quickbooks-manufacture.jpg" alt="" />
+				<h4>Manufacturing & Wholesale</h4>
+				<p>
+					Stay updated on goods coming in and going out by keeping track of your business and work flow through key reports.
+				</p>
+				<!--<button class="learnButtonSec">
+					Learn More &gt;&gt;
+				</button>-->
+			</div>
+			<div class="thrdDivSec">
+				<img src="http://192.168.11.199/quickbook/media/wysiwyg/intuit-quickbooks-donate.jpg" alt="" />
+				<h4>Nonprofit</h4>
+				<p>
+					Manage all your operating expenses and keep track of your important and biggest donors and grants.
+				</p>
+				<!--<button class="learnButtonSec">
+					Learn More &gt;&gt;
+				</button>-->
+			</div>
+		</div>
+
+<div class="banner " id="bannerIntuit">
+<div class="sequence-theme">
+<div id="sequenceIntuit">
+<ul class="owl-carousel sequence-canvas intuitEnter">
+<li class="item animate-in bg110">
+<div class="bannerWidth11">
+<div class="banner-container">
+<h2 class="title">24*7 Support </h2>
+<h3 class="subtitle">Dedicated 24*7 support backup to resolve any QuickBooks problems and issues.</h3>
+<!--<button href="#" class="getBtn">Learn More &gt;&gt;</button>-->
+</div>
+</div>
+</li>
+<li class="item  bg220">
+<div class="bannerWidth11">
+<div class="banner-container">
+<h2 class="title">Making management Simple </h2>
+<h3 class="subtitle">Create reports, setup automatic sales, adjust product prices, keep track of inventory and manage your business anytime anywhere</h3>
+<!--<button href="#" class="getBtn">Learn More &gt;&gt;</button>-->
+</div>
+</div>
+</li>
+<li class="item  bg330">
+<div class="bannerWidth11">
+<div class="banner-container">
+<h2 class="title">Intuit Merchant Service</h2>
+<h3 class="subtitle">Process all your credit card transactions stress-free and more accurately, reduce paperwork and deposit your funds into your account.</h3>
+<!--<button href="#" class="getBtn">Learn More &gt;&gt;</button>-->
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
